@@ -3,12 +3,6 @@ class PSolver():
     def __init__(self):
         pass
 
-    def sum(self, a, b):
-        return a + b
-    
-    def mult(self, a, b):
-        return a * b
-
     def readinput(self, iname='input.dat'):
         with open(iname, 'r') as f:
             lines_raw = f.readlines()
